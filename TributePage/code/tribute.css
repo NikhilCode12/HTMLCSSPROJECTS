@@ -93,7 +93,7 @@
     font-weight: 400;
     color: #1D1E4C;
     margin-bottom: 20px;
-    animation: typing 5s normal steps(44,end) both, blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typing 4s normal steps(42,end) both, blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 .about_box p{
