@@ -1,5 +1,5 @@
 # HTML/CSS PROJECTS
-10 basic Projects using only HTML and CSS - Created By Nikhil Sharma
+Basic Projects using only HTML and CSS - Created By Nikhil Sharma
 
 Projects included are detailed below: 
 # 1. Tribute Web Page
