@@ -142,7 +142,7 @@ footer{
 }
 
 .contact a{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
     color: whitesmoke;
@@ -155,14 +155,14 @@ footer{
 
 footer .name{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     color: yellow;
 }
 
 footer span  a{
     text-decoration: none;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     color: yellow;
 }
 
