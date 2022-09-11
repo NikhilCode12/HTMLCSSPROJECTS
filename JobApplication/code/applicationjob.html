@@ -10,7 +10,97 @@
 <body>
      <div class="container">
         <div class="apply_box">
-            
+            <h1>Job Application Form <span class="web-text">(Web)</span></h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                        <input 
+                            type="text"
+                            id="first_name" 
+                            name="first_name" 
+                            placeholder="Enter your first name..."
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input 
+                            type="text"
+                            id="last_name" 
+                            name="last_name" 
+                            placeholder="Enter your last name..."
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email" 
+                            name="email" 
+                            placeholder="example@mail.com"
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="role">Job Role</label>
+                        <select id="role" name="role">
+                            <option value="">Select your role...</option>
+                            <option value="front_end">Frontend Web Dev</option>
+                            <option value="back_end">Backend Web Dev</option>
+                            <option value="full_stack">Full Stack Web Dev</option>
+                            <option value="uiux">UI UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="address">Address</label>
+                        <textarea 
+                            id="address" 
+                            name="address" 
+                            rows="4" 
+                            cols="50" 
+                            placeholder="Enter your address..."
+                        >
+                        </textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="city_name">City</label>
+                        <input 
+                            type="text"
+                            id="city_name" 
+                            name="city_name" 
+                            placeholder="Enter your city..."
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="pin_code">Pin Code</label>
+                        <input 
+                            type="number"
+                            id="pin_code" 
+                            name="pin_code" 
+                            placeholder="Enter your pin code..."
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input
+                            value="2022-11-09" 
+                            type="date"
+                            id="date" 
+                            name="date"
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label for="upload_cv">Upload CV</label>
+                        <input
+                            type="file"
+                            id="upload_cv" 
+                            name="upload_cv"
+                        />
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
         </div>
      </div>
 </body>
